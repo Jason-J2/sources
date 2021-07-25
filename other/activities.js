@@ -44,7 +44,7 @@ async function wzry() {
     if (wzryres.config.userDuihuanCode5 == 1) return;
     if (wzryres.config.day_share != 2) await get("wzry2021", "dayshare")
     await get("wzry2021", "DayLingShare")
-    await get("wzry2021", "Zhuli&invitecode=crcf804hkfp")
+    await get("wzry2021", "Zhuli&invitecode=28wy798djpa")
     await get("wzry2021", "DayLingInvite")
     if (wzryres.config.day_play_ling != 2) await get("wzry2021", "DailyGamePlay")
     await get("wzry2021", "DayLingGamedown")
