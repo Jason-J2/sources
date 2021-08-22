@@ -58,7 +58,7 @@ async function wzry() {
 
 
 //原神集卡活动 7.21-8.21
-async function summer() {
+/*async function summer() {
     console.log("\n--------原神集卡活动开始--------\n")
     aid = "2021summer/m"
     let coderes = await axios.get("http://1oner.cn:1919/hykb/all")
@@ -109,7 +109,7 @@ async function summer() {
         console.log(info)
     }
     console.log("\n--------原神集卡活动运行结束--------\n")
-}
+}*/
 
 //获取任务id
 async function lottery(a, c, b) {
